@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <h1 style="display: flex; justify-content: center; font-size: 30px;opacity: 0.8;font-weight: 500;">SINAM AUTOSPARES<i class="fa fa-wrench" aria-hidden="true"></i>    </h1>
+    <div id="navbar">
+      <div>
+        <a>Profile</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="" id="home">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="" id="about">About Us</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <form ation="" id="register-form">
+      <h1>Register</h1>
+      <div>
+        <input type="text" name="username" id="username" placeholder="enter username">
+        <p style="color: white; opacity: 0.7 ;font-size: 13px;" id="user-message">username should have a maximum of 20 characters no spaces</p>
+        <input type="text" name="username" id="email" placeholder="enter email">
+        <p style="color: white; opacity: 0.7; font-size: 13px;" id="user-email-message">enter a valid email adress</p>
+        <input type="text" name="username" id="phone" placeholder="enter phone">
+        <p style="color: white; opacity: 0.7;font-size: 13px;" id="user-phone-message">enter phone number</p>
+        <input type="text" name="username" id="password-a" placeholder="enter password">
+        <p style="color: white; opacity: 0.7; font-size: 13px;" id="user-password-message">choose password</p>
+        <ul style="color: white; opacity: 0.7; font-size: 13px;">
+          <li>At least 12 characters long but 14 or more is better.</li>
+          <li>A combination of uppercase letters, lowercase letters</li>
+          <li>Use 1 or more numbers</li>
+          <li>Use at leasr one special charater {w@\$!*#&§%}</li>
+        </ul>
+        <input type="text" name="username" id="password-b" placeholder="confirm password"><br/>
+        <input type="submit" value="Register">
+      </div>
+      <p style="color: white; transform: translateX(55%); font-size: 14px; opacity: 0.7;">Already have an account?<a href="#" id="login-trigger" style="color: green;text-decoration: none;">Login</a></p>
+    </form>
+    <form ation="" id="login-form">
+      <h1>Login</h1>
+      <div>
+        <input type="text" name="username" id="username-login" placeholder="Enter username">
+        <input type="text" name="username" id="password-login" placeholder="Enter password"><br/>
+        <input type="submit" value="Login">
+      </div>
+      <a href="" style="color:white; display: flex; justify-content: center;" id="register-trigger">Register Here</a>
+    </form>
+    <script src="form.js"></script>
+  </body>
+</html>
